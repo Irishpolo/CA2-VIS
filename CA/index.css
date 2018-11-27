@@ -1,0 +1,243 @@
+html body {
+    margin: 0;
+    font-weight: 300;
+}
+
+header {
+    background-color: rgb(125,187,195)
+}
+
+nav {
+    text-align: center;
+    border-bottom: 0.3em solid #817E9F;
+    
+}
+
+nav ul {
+    margin:0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 4em;
+    padding:1.5em 0;
+    position: relative;
+}
+
+nav a {
+    color: rgb(68, 68, 68);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav a:hover{
+    color: black;
+}
+
+nav a::before {
+    content: " ";
+    display: block;
+    height: 0.5em;
+    width: 0%;
+    background-color: rgb(68, 68, 68);
+    position: absolute;
+    top: 0;
+    transition: all ease-in-out 250ms;
+}
+
+nav a:hover:before{
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    font-family:"Allerta";
+    text-decoration: underline;
+}
+
+p {
+    font-family: 'Crimson Text';
+}
+
+main img{
+    width: 14%;
+    padding: 0.5em 0;
+}
+
+#interactive {
+    width: 100%;
+    background-color: rgb(229, 177, 129);
+    overflow: hidden;
+}
+
+#intro {
+    width: 100%;
+    background-color: #885053;
+    overflow: hidden;
+}
+.red{
+    margin-left: 4%;
+    margin-right: 2.5%;
+}
+
+.red:hover{
+    margin-left: 4%;
+    margin-right: 2.5%;
+    content: url(images/red.png);
+}
+
+.blue{
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+.blue:hover{
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    content: url(images/blue.jpg);
+}
+
+.green{
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+.green:hover{
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    content: url(images/green.jpg);
+
+}
+
+.white{
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+.white:hover{
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    content: url(images/white.jpg);
+}
+
+.black{
+    margin-left: 2.5%;
+    margin-right: 3%;
+ 
+}
+
+.black:hover{
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    content: url(images/black.jpg);
+}
+
+.parts{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 15%;
+}
+
+#table {
+    width: 45%;
+    height: 70%;
+    padding: 1em;
+    margin-right: 2%;
+    margin-left:auto;
+    font-size: 110%;
+    float: left;
+    
+}
+
+#table table, td, th{
+    border: 0.1em solid black;
+    padding: 1em;
+    
+}
+
+#table .tred{
+    color: red;
+    font-weight: bold;
+}
+
+#table .tblue{
+    color: blue;
+    font-weight:bold;
+}
+
+#table .tgreen{
+    color: green;
+    font-weight:bold;
+}
+
+#table .twhite{
+    color: white;
+    font-weight:bold;
+}
+
+#table .tblack{
+    color: black;
+    font-weight:bold;
+}
+
+#readcard {
+    width: 45%;
+    margin-top: 1em;
+    margin-left: 2%;
+    margin-right:auto;
+    padding: 0.2em;
+    float: right;
+    
+}
+
+#readcard iframe{
+    width: 90%;
+    height: 20em;
+    margin: 0% 5% 0% 5%;
+ 
+}
+
+
+
+ #creature{
+    width: 15%;
+    margin-left: 2%;
+    margin-right: 5%;
+    display: inline-block;
+    border: 1em solid black;
+}
+
+ #enchantment{
+    width: 15%;
+    margin-left: 0%;
+    margin-right: 5%;
+    margin-top: -10em;
+    display: inline-block;
+    border: 1em solid black;
+    
+ }
+
+ #instant{
+    width: 15%;
+    margin-left: 0%;
+    margin-right: 5%;
+    display: inline-block;
+
+}
+
+#land{
+    width: 15%;
+    margin-left: 0%;
+    margin-right: 5%;
+    display: inline-block;
+}
+
+#sorcery{
+    width: 15%;
+    margin-left: 0%;
+    margin-right: 2%;
+    display: inline-block;
+
+}
