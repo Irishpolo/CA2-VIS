@@ -19,7 +19,7 @@ nav {
     text-align: center;
     border-bottom: 0.2em solid black;
     position: relative;
-    
+
 }
 
 nav ul {
@@ -81,7 +81,7 @@ main img{
 
 #interactive {
     width: 100%;
-    overflow: hidden;    
+    overflow: hidden;
 }
 
 #intro {
@@ -256,6 +256,3 @@ main img{
     float: right;
     margin-right: 5%;
 }
-
-
-
